@@ -7,16 +7,16 @@ class Main {
     welcome();
     int num1 = scan.nextInt();
 
-    System.out.println("first number squared");
-    System.out.println(squ1(num1));
+    System.out.println("area of the cube in feet");
+    System.out.println(area(num1));
 
   }
   public static void welcome(){
-    System.out.println("Welcome to the calculator! Type in the number you want squared");
+    System.out.println("Welcome to the calculator! Type in the length of one edge of the cube in feet to get the area");
   }
-  static int squ1(int num1)
+  static int area(int num1)
   {
-    return num1 * num1;
+    return num1 * num1 * 6;
   }
   
 }
